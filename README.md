@@ -16,7 +16,7 @@ $ DEBUG=multer-demo:* npm start
 
 ## Testing file upload
 
-To upload a file to the local server using `curl` use the command :
+To upload a file to the local server using `curl` use :
 
 ```
 $ curl -F "foo=@$HOME/downloads/okasaki.pdf" localhost:3000/upload
@@ -34,7 +34,7 @@ $ curl -F "foo=@$HOME/downloads/okasaki.pdf" localhost:3000/upload
     }
 }
 ```
-This uploads the file `okasaki.pdf` present in the download directory. The file is uploaded to the public directory of the webserver under `uploads/6cd4b17ddb5eae48abb843b0d8c057b0`
+This uploads the file `okasaki.pdf` present in the downloads directory in home. The file is uploaded to the public directory of the webserver under `uploads/6cd4b17ddb5eae48abb843b0d8c057b0`
 
 To test if the file has been actually uploaded simply download it using wget as follows :
 
