@@ -7,6 +7,7 @@ A very simple demo website for file-upload using `multer` and `express`.
 ```
 $ npm start
 ```
+The webserver will start in port `3000` by default (can be overidden by `PORT` environment variable).
 
 Or to run in debug mode use
 ```
