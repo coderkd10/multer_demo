@@ -49,3 +49,8 @@ $ wget localhost:3000/uploads/6cd4b17ddb5eae48abb843b0d8c057b0 -O okasaki_dl.pdf
 	```
 	(`-e` to specify that we'll be using ejs as our template engine)
 2. TODO
+
+
+## Further reading & references
+- [Multer Project & Documentation](https://github.com/expressjs/multer)
+- [Another multer tutorial](https://scotch.io/tutorials/express-file-uploads-with-multer)
