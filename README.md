@@ -82,6 +82,24 @@ And we can verify it is the same file as we uploaded (using `diff` or otherwise)
 	(`-e` to specify that we'll be using ejs as our template engine)
 2. TODO
 
+## TODO
+
+- [ ] Add basic UI (html page with form) to upload file.
+- [ ] Show list of uploaded files.
+- [ ] Restrict type of files being uploaded
+	- [ ] Image
+		- `png`, `jpg / jpeg`, `gif`, `tiff`, etc.
+	- [ ] PDF documents
+	- [ ] Office documents
+		- [ ] MS formats : `.doc`, `.docx`, `.ppt`, `.pptx`, `.xls`, `.xlsx`, etc.
+		- [ ] OpenOffice / LibreOffice and other free formats
+	- [ ] Music files : `.mp3`
+		- [ ] Also allow to play songs directly from website (without download)
+- [ ] Add cooler file upload UI.
+	- [ ] Support drag and drop
+	- [ ] Allow to fetch from url
+	(may look at https://imgur.com/upload for inspiration)
+- [ ] Add user separation - public / private files etc.
 
 ## Further reading & references
 - [Multer Project & Documentation](https://github.com/expressjs/multer)
